@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(seattle-skyline-gradient.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*html::after {
+  content: "";
+  background: url(gradient.svg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}*/
+
+.nameplate {
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  margin-top: 20%;
+  margin-bottom: 20px;
+}
