@@ -102,8 +102,20 @@ ul {
 @media (max-width: 800px) {
   p {
     font-size: 1.2em;
-    margin-bottom: 400px;
+    margin-bottom: 600px;
   }
+}
+
+.slant {
+  height: 300px;
+}
+.slant:before {
+  height: 300px;
+  -webkit-transform: skew(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
 }
 
 @media (max-width: 460px) {
@@ -112,7 +124,7 @@ ul {
   }
   p {
     font-size: 1em;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
   }
 
   .slant {
