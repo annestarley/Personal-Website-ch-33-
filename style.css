@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  background: url(seattle-skyline-gradient.png) no-repeat center center fixed;
+  background: url(seattle-skyline-darkened.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,7 +14,7 @@ html {
 
 /*html::after {
   content: "";
-  background: url(gradient.svg);
+  background: #2A3344;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -23,9 +25,70 @@ html {
 }*/
 
 .nameplate {
-  background-color: white;
+  /*background-color: white;*/
+  color: white;
   margin: auto;
-  width: 90%;
-  margin-top: 20%;
+  width: 60%;
+  margin-top: 10%;
   margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Signika', sans-serif;
+}
+
+p {
+  font-family: 'Signika', sans-serif;
+  margin-bottom: 300px;
+  font-size: 1.5em;
+  /*-webkit-text-stroke: 1px #4C569B;*/
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 1em;
+}
+
+ul {
+  margin: 20px;
+  float: right;
+}
+
+/*footer {
+  background-color: #4C569B;
+  color: white;
+}*/
+
+.slant {
+  background-color: #4C569B;
+  color: white;
+  position: relative;
+  height: 200px;
+}
+
+.slant:before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -36px;
+  width: 100%;
+  height: 200px;
+  background-color: #4C569B;
+  -webkit-transform: skew(-2.5deg);
+  -moz-transform: skewY(-2.5deg);
+  -ms-transform: skewY(-2.5deg);
+  -o-transform: skewY(-2.5deg);
+  transform: skewY(-2.5deg);
+}
+
+.white {
+  color: lightgrey;
+  float: left;
+}
+
+.white:hover {
+  color: white;
 }
