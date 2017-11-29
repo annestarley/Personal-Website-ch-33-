@@ -39,7 +39,7 @@ h1 {
 
 p {
   font-family: 'Signika', sans-serif;
-  margin-bottom: 300px;
+  margin-bottom: 350px;
   font-size: 1.5em;
   /*-webkit-text-stroke: 1px #4C569B;*/
 }
@@ -102,6 +102,7 @@ ul {
 @media (max-width: 800px) {
   p {
     font-size: 1.2em;
+    margin-bottom: 400px;
   }
 }
 
