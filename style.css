@@ -25,7 +25,6 @@ html {
 }*/
 
 .nameplate {
-  /*background-color: white;*/
   color: white;
   margin: auto;
   width: 60%;
@@ -56,6 +55,8 @@ ul {
   float: right;
 }
 
+
+
 /*footer {
   background-color: #4C569B;
   color: white;
@@ -84,6 +85,11 @@ ul {
   transform: skewY(-2.5deg);
 }
 
+.slant:hover, .slant:before:hover {
+  background-color: #464F92;
+}
+
+
 .white {
   color: lightgrey;
   float: left;
@@ -91,4 +97,24 @@ ul {
 
 .white:hover {
   color: white;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  }
+
+  .slant {
+    height: 400px;
+  }
+
 }
